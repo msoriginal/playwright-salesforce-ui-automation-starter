@@ -1,0 +1,29 @@
+{
+  "name": "playwright-salesforce-ui-automation-starter",
+  "version": "1.0.0",
+  "description": "A clean Playwright automation starter kit for UI testing — built for Salesforce and modern web apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoriginal/playwright-salesforce-ui-automation-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/msoriginal/playwright-salesforce-ui-automation-starter/issues"
+  },
+  "homepage": "https://github.com/msoriginal/playwright-salesforce-ui-automation-starter#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
